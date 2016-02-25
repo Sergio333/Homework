@@ -1,0 +1,146 @@
+html{
+	font-family: 'Open Sans', sans-serif;
+	background: #f9f9f9;
+}
+.wrapper{
+	width: 1060px;
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.container{
+	width: 966px;
+	margin: 0 auto;
+	padding: 50px 0;
+
+	/*HEADER*/
+}
+h1{
+	font-size: 41pt;
+	margin-bottom: 40px;
+	color: #292929;
+}
+
+nav{
+	padding-bottom: 40px;
+}
+
+nav ul{
+	background: url(../img/header.png);
+}
+nav li{
+	display: inline-block;
+	line-height: 40px;
+	font-size: 11pt;
+	text-shadow: 1px 1px 2px black;
+}
+nav a{
+	display: block;
+	height: 40px;
+	text-decoration: none;
+	padding: 0 30px;
+	color: white;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+nav a:hover{
+	border-left: 1px solid #838383;;
+	border-right: 1px solid #838383;;
+	background: url(../img/hover.png);
+	background-repeat: repeat-x;
+
+	/*BODY*/
+}
+.left{
+	float: left;
+	width:240px;
+}
+.left ul{
+	border:1px solid #c8c8c8;
+}
+.left li{
+	line-height: 40px;
+	border-bottom: 1px solid #c8c8c8;
+	font-size: 10pt;
+
+}
+.left li:last-child{
+	border-bottom: none;
+}
+.left li a{
+	text-decoration: none;
+	padding-left: 24px;
+	display: block;
+	color: #656363;
+}
+.left li a:hover{
+	padding-left: 35px;
+	color: #2c2c2c;
+}
+.right{
+	width: 678px;
+	float: right;
+	margin-bottom:40px;
+}
+.right .image{
+	width: 678px;
+	height: 400px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid #c8c8c8;
+}
+.right img{
+	width: 500px;
+	height: 307px;
+	text-align: center;
+}
+.right p{
+	font-size: 10pt;
+	color: #2c2c2c;
+	padding: 40px 24px;
+	line-height: 1.5;
+	text-align: justify;
+
+/*FOOTER*/
+
+}
+footer{
+	position: relative;
+	content: '';
+	display:inline-block;
+	clear: both;
+	line-height: 40px;
+	width: 100%;
+	background-color: #e1e1e1;
+}
+footer ul{
+	float: left;
+	width: 600px;
+	margin: 0;
+	padding: 0;
+}
+footer li{
+	display: inline;
+	padding: 0 30px;
+	margin: 0;
+	font-size: 10pt;
+	color: #2c2c2c;
+}
+footer a{
+	text-decoration: none;
+	color:black;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+footer:after{
+	content: '';
+	clear: both;
+}
+footer p{
+	float: right;
+	font-size: 10pt;
+	color: #2c2c2c;
+	padding-right: 24px;
+}
